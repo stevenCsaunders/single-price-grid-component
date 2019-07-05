@@ -31,11 +31,11 @@ p {
   font-size: 1.6rem;
 }
 a {
-  color: var(--bright-green);
+  color: var(--dark-gray);
   text-decoration: none;
 }
 a:hover {
-  color: var(--dark-gray);
+  color: var(--bright-green);
 }
 ul {
   list-style: none;
@@ -95,6 +95,7 @@ ul {
 }
 .btn:hover {
   background: hsl(71, 94%, 41%)
+  cursor:pointer;
 }
 .bottom-right {
   background: var(--light-green);

@@ -56,11 +56,11 @@ ul {
   border-top-right-radius: .7rem;
 }
 .top-announcement h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: var(--dark-green);
 }
 .top-announcement h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--bright-green);
 }
 .bottom-left {
@@ -70,7 +70,7 @@ ul {
   display: grid;
 }
 .sub-title {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 .bottom-left .dollar {
   font-weight: bold;

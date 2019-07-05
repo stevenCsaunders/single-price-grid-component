@@ -32,10 +32,10 @@ p {
 }
 a {
   color: var(--dark-gray);
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover {
-  color: var(--bright-green);
+  text-decoration-color: var(--bright-green);
 }
 ul {
   list-style: none;
@@ -50,7 +50,7 @@ ul {
   margin: 5rem auto;
 }
 .top-announcement {
-  background: white;
+  background: #fff;
   padding: 1.6rem 2rem;
   border-top-left-radius: .7rem;
   border-top-right-radius: .7rem;

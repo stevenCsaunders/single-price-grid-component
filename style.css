@@ -92,10 +92,10 @@ ul {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   font-size: 1.3rem;
   justify-items: center;
+  cursor: pointer;
 }
 .btn:hover {
   background: hsl(71, 94%, 41%);
-  cursor:pointer;
 }
 .bottom-right {
   background: var(--light-green);

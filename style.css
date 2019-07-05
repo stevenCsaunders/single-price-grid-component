@@ -65,7 +65,7 @@ ul {
 }
 .bottom-left {
   background: var(--dark-green);
-  color: white;
+  color: #fff;
   padding: 2rem 2rem;
   display: grid;
 }
@@ -87,19 +87,19 @@ ul {
   margin: 1.6rem 0 .5rem 0;
   padding: 1.6rem 0;
   text-decoration: none;
-  color: white;
+  color: #fff;
   min-width: 80%;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   font-size: 1.3rem;
   justify-items: center;
 }
 .btn:hover {
-  background: hsl(71, 94%, 41%)
+  background: hsl(71, 94%, 41%);
   cursor:pointer;
 }
 .bottom-right {
   background: var(--light-green);
-  color: white;
+  color: #fff;
   padding: 2rem 2rem;
   border-bottom-left-radius: .7rem;
   border-bottom-right-radius: .7rem;

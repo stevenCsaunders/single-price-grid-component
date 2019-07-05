@@ -129,6 +129,7 @@ ul {
   }
   .bottom-right {
     grid-column: 2/3;
+    border-bottom-left-radius: 0;
     border-bottom-right-radius: .7rem;
   }
 }

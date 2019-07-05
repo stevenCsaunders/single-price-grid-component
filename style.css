@@ -100,6 +100,8 @@ ul {
   background: var(--light-green);
   color: white;
   padding: 2rem 2rem;
+  border-bottom-left-radius: .7rem;
+  border-bottom-right-radius: .7rem;
 }
 .attribution {
   width: 80%;

@@ -21,7 +21,7 @@ body {
 }
 h1, h2, h3 {
   margin: 0;
-  padding-bottom: 1.2rem;
+  padding-bottom: .75rem;
   font-weight: bold;
 }
 p {
@@ -47,7 +47,7 @@ ul {
 /* Mobile Styles */
 #main {
   width: 80%;
-  margin: 5rem auto;
+  margin: 5rem auto 1rem auto;
 }
 .top-announcement {
   background: #fff;

@@ -45,7 +45,7 @@ ul {
   color: var(--light-gray);
 }
 /* Mobile Styles */
-#main {
+.single-price-component {
   width: 80%;
   margin: 5rem auto 1rem auto;
 }
@@ -113,8 +113,8 @@ ul {
   font-size: 1.2rem;
 }
 /* Media Queries*/
-@media(min-width: 376px){
-  #main{ 
+@media(min-width: 500px){
+  .single-price-component { 
     max-width: 70em;
   }
   .grid {

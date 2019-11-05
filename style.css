@@ -25,7 +25,8 @@ h1, h2, h3, p, ul, li, button {
 }
 .wrapper {
   width: 80%;
-  margin-top: 5rem;
+  max-width: 80rem;
+  margin-top: 10rem;
 }
 .top {
   background-color: white;
@@ -70,12 +71,13 @@ h2 {
 }
 .per-month {
   color: var(--light-gray);
+  font-size: 1.25rem;
 }
 .access {
   margin-top: .75rem;
 }
 .dollar {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 700;
   margin-right: 1rem;
   color: white;
@@ -83,18 +85,20 @@ h2 {
 .btn {
   background-color: var(--bright-yellow);
   border-radius: 5px;
+  border: 2px solid var(--bright-yellow);
   padding: 1.25rem 0;
-  margin-top: 2.5rem;
+  margin-top: 3rem;
   min-width: 80%;
-  border: none;
   font-size: 1.6rem;
   font-weight: 700;
   color: white;
   box-shadow: 8px 8px 8px rgba(0, 0, 0, .1);
+  cursor: pointer;
+
 }
 .btn:hover {
-  background-color: hsl(71, 59%, 48%);
-  cursor: pointer;
+  background-color: white;
+  color: var(--bright-yellow);
 }
 .bottom-right {
   background-color: hsl(179, 62%, 43%, .9);
@@ -119,19 +123,24 @@ h2 {
 }
 /* MEDIA QUERIES */
 
-/*! ADD STYLES TO MAKE FONTS FIT IN DESKTOP VIEW */
-
 @media all and (min-width: 750px) {
+  .top {
+    padding: 5%;
+  }
 .bottom-announcement {
   display: flex;
 }
 .bottom-left {
   border-bottom-left-radius: 10px;
   width: 50%;
+  padding: 5%;
+
 }
 .bottom-right {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 0px;
   width: 50%;
+  padding: 5%;
+
 }
 }

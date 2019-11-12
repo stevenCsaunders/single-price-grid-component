@@ -14,7 +14,7 @@ html {
 body {
   background-color: var(--light-gray);
 }
-h1, h2, h3, p, ul, li, button {
+h1, h2, h3, p, ul, li, a {
   font-family: var(--main-font-family);
   margin: 0;
   padding: 0;
@@ -24,12 +24,12 @@ h1, h2, h3, p, ul, li, button {
   justify-content: center;
 }
 .wrapper {
-  width: 80%;
+  width: 60%;
   margin-top: 5rem;
 }
 .top {
   background-color: white;
-  padding: 10%;
+  padding: 7.5%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -51,7 +51,7 @@ h3 {
 }
 .bottom-left {
   background-color: var(--cyan);
-  padding: 10%;
+  padding: 7.5%;
   display: flex;
   flex-direction: column;
 }
@@ -91,6 +91,8 @@ h2 {
   font-weight: 700;
   color: white;
   box-shadow: 8px 8px 8px rgba(0, 0, 0, .1);
+  text-align: center;
+  text-decoration: none;
 }
 .btn:hover {
   background-color: hsl(71, 59%, 48%);
@@ -98,7 +100,7 @@ h2 {
 }
 .bottom-right {
   background-color: hsl(179, 62%, 43%, .9);
-  padding: 10%;
+  padding: 7.5%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
